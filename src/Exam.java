@@ -38,13 +38,18 @@ public class Exam {
 		e.printStackTrace();
 	    }
 		
-		System.out.println("java");
-		String q= a.next();
-		System.out.println("javaScript");
-		String qq= a.next();
-		System.out.println("HTML");
-		String qqq= a.next();
-		
+		  String q = a.next();
+		  System.out.println("Ahmed");
+		  String qq = a.next();
+		  System.out.println("mohammed");
+		  String qqq = a.next();
+		  System.out.println("Ali");
+		  String w = a.next();
+		  System.out.println("azzoz");
+		  String ww = a.next();
+		  System.out.println("adnan");
+		  String www = a.next();
+		  System.out.println("Majid");
 		
 		
 }
