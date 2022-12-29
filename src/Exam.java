@@ -12,6 +12,7 @@ public class Exam {
 
 	public static void main(String[] args) throws IOException{
 		Scanner a= new Scanner(System.in);
+		String word;
 		try {
 			for(int i=0; i<= 20; i++) {
 		//Create Document instance.
@@ -50,7 +51,29 @@ public class Exam {
 		  System.out.println("adnan");
 		  String www = a.next();
 		  System.out.println("Majid");
-		
-		
-}
-	}
+	
+	      File directoryPath=new File("C:\\Users\\Lenovo\\eclipse-workspace\\FristExam");
+	      File filesList[] =directoryPath.listFiles();
+		 System.out.println("Enter the word to be search in pdf file");
+	     	word = a.next();
+	     	for(File file : filesList)
+	     	{{
+	     		System.out.println("File name: " + file.getName());
+	     		try {
+	     			pdfReader pdfReader = new pdfReader(file.getPath());
+	     		
+	
+	     		}
+	     		}
+	     	}
+	     	
+	     	
+	     	
+	     	
+	     	
+	     	
+	     	
+	     	
+	     	
+	     	
+	     	
